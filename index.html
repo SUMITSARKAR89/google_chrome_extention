@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        max-width: 100%;
+        margin:  10px ;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid red;
+       
+    }
+    .container{
+        background-color: #f1eeee;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 30px;
+        gap: 1rem;
+        padding: 15px;
+        height:auto;
+        max-width: 600px;
+        border: 1px solid rgb(153, 139, 139);
+    }
+    .box{
+        max-width: 100%;
+    }
+    input{
+        width: 95%;
+        padding: 5px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        margin: 10px;
+        background-color: rgba(127, 255, 212, 0.123);
+        font-size: 16px;
+    }
+    button{
+        background-color: black;
+        color: #fff;
+        padding: 10px 25px;
+        font-size: 18px;
+        border: 1px solid transparent;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 1px;
+        transition: 0.4s;
+    }
+    button:hover{
+        background-color: #fff;
+        color: black;
+        border: 1px solid #000;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <input type="text " placeholder="Type your text here" id="input">
+        <div class="box">
+            <button id="inputBtn">Save</button>
+            <button id="tabBtn">save current link</button>
+            <button id="deleteBtn">clear</button>
+            <ol id="list">
+                <!-- <li><a href="#" target="_blank" class="link">link</a></li> -->
+            </ol>
+        </div>
+
+    </div>
+    <script src="chorom.js"></script>
+    
+</body>
+</html>
