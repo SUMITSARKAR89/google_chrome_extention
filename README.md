@@ -3,8 +3,25 @@
 ---
 #### HTML, CSS3, JavaScript
 <br/>
+<p>
+    step 1: name the value or create variable name<br/>
+   step 2: set input value and button click <br/>
+            . add event listener<br/>
+            . push value<br/>
+            . clear value when click <br/>
+            . set local storage JSON stringify<br/>
+    step 3: add list when input value is save<br/>
+            . create function array<br/>
+            . create loop by taking innerHTML<br/>
+    step 4: sting to array convert<br/>
+    step 5: set delete button<br/>
+    step 6: set tab button or link button <br/>
+ <p/> 
+     <br/>
 
 <img src="Screenshot .png" alt="">
+
+
 
 ```html
 
