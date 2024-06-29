@@ -25,6 +25,27 @@
     
 </body>
 ```
+
+<br/>
+menifest.json
+<br/>
+
+```javaScript
+
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Save Links",
+   " description" : "Save all links you needed for future",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png",
+      "default_title": "Save link"
+    },
+    "permissions": ["tabs"]
+  }
+```
+
 <br/>
 1. 1 step one (take variable)
 <br/>
